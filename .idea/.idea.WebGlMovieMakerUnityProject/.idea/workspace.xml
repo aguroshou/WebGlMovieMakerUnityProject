@@ -19,24 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e18bf7f2-d1f7-4ec8-bf76-062c27bd8dfc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebGlMovieMakerUnityProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebGlMovieMakerUnityProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerArmStretching.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerArmStretching.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerCards.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerCards.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerDancing.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerDancing.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerHapplyIdle.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerHapplyIdle.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerOrcIdle.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerOrcIdle.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerSitting.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerSitting.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerSittingClap.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerSittingClap.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerSittingThumbsUp.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerSittingThumbsUp.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerSittingYell.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerSittingYell.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerStandingWBriefcaseIdle.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerStandingWBriefcaseIdle.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerTaunt.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerTaunt.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerTextingWhileStanding.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerTextingWhileStanding.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerThankful.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerThankful.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1. LoadVRM.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1. LoadVRM.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TransformController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TransformController.cs" afterDir="false" />
-    </list>
+    <list default="true" id="e18bf7f2-d1f7-4ec8-bf76-062c27bd8dfc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,7 +99,7 @@
       <workItem from="1605791531706" duration="537000" />
       <workItem from="1605792228987" duration="2085000" />
       <workItem from="1606287924346" duration="10215000" />
-      <workItem from="1606380375024" duration="6989000" />
+      <workItem from="1606380375024" duration="7591000" />
     </task>
     <servers />
   </component>

@@ -12,6 +12,7 @@ namespace KiliWare.SampleVRMApp
     public class TransformController : MonoBehaviour
     {
         private int openAnimationKey = Animator.StringToHash("Entry");
+        //private int openAnimationKey;
 
         static int VrmControllingObjectNumber;
         [SerializeField] int vrmObjectNumber;
@@ -20,7 +21,7 @@ namespace KiliWare.SampleVRMApp
         private Animator animator;
 
         //[SerializeField] AnimatorStateInfo animatorStateInfo;
-        [SerializeField] private float animationSpeed = 0.004f;
+        [SerializeField] private float animationSpeed = 0.006f;
         [SerializeField] private float animationSpeedRate = 1.0f;
         [SerializeField] private GameObject animationSpeedRateTextGameObject;
         [SerializeField] private TMP_Text animationSpeedRateText;
@@ -42,6 +43,8 @@ namespace KiliWare.SampleVRMApp
                 (RuntimeAnimatorController) RuntimeAnimatorController.Instantiate(
                     Resources.Load("AnimatorControllers/MixamoAnimatorController"));
             animator.updateMode = AnimatorUpdateMode.UnscaledTime;
+            openAnimationKey = Animator.StringToHash("Entry");
+            animator.Play(openAnimationKey, 0, currentAnimationTime);
             animation.playAutomatically = true;
             transform.Rotate(0f, 180f, 0f);
             animatorControllerDropdownGameObject = GameObject.Find("AnimatorControllerDropdown");
@@ -55,25 +58,26 @@ namespace KiliWare.SampleVRMApp
             System.Globalization.CultureInfo.CurrentCulture = new System.Globalization.CultureInfo("en-us");
         }
 
-        public void SetAnimationFrame(int i_frame)
-        {
-            var clipInfoList = animator.GetCurrentAnimatorClipInfo(0);
-            var clip = clipInfoList[0].clip;
-
-            float time = (float) i_frame / clip.frameRate;
-
-            var stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-            var animationHash = stateInfo.shortNameHash;
-
-            animator.Play(animationHash, 0, time);
-        }
+        // public void SetAnimationFrame(int i_frame)
+        // {
+        //     var clipInfoList = animator.GetCurrentAnimatorClipInfo(0);
+        //     var clip = clipInfoList[0].clip;
+        //
+        //     float time = (float) i_frame / clip.frameRate;
+        //
+        //     var stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+        //     var animationHash = stateInfo.shortNameHash;
+        //
+        //     animator.Play(animationHash, 0, time);
+        // }
 
         private float currentAnimationTime = 0;
 
         void Update()
         {
             currentAnimationTime = animator.GetCurrentAnimatorStateInfo(0).normalizedTime;
-            currentAnimationTime += animationSpeed * animationSpeedRate;
+            currentAnimationTime += animationSpeed * animationSpeedRate / animator.GetCurrentAnimatorStateInfo(0).length;
+            //currentAnimationTime += animationSpeed * animationSpeedRate / animation.clip.length;
             animator.Play(openAnimationKey, 0, currentAnimationTime);
 
             if (VrmControllingObjectNumber != vrmObjectNumber)
@@ -82,13 +86,13 @@ namespace KiliWare.SampleVRMApp
             }
 
             string tmpAnimationSpeedRateString = animationSpeedRateText.text;
-            
+
             //tmpAnimationSpeedRateStringの終端文字にゴミが入っているので取り除いています
             tmpAnimationSpeedRateString =
                 tmpAnimationSpeedRateString.Substring(0, tmpAnimationSpeedRateString.Length - 1);
             if (float.TryParse(tmpAnimationSpeedRateString, out animationSpeedRate))
             {
-                Mathf.Clamp(animationSpeedRate, -10f, 10f);
+                animationSpeedRate = Mathf.Clamp(animationSpeedRate, -10f, 10f);
             }
             else
             {
@@ -277,6 +281,36 @@ namespace KiliWare.SampleVRMApp
                 case 23:
                     openAnimationKey = Animator.StringToHash("Swimming");
                     break;
+                case 24:
+                    openAnimationKey = Animator.StringToHash("Komachi_adress");
+                    break;
+                case 25:
+                    openAnimationKey = Animator.StringToHash("Komachi_information");
+                    break;
+                case 26:
+                    openAnimationKey = Animator.StringToHash("Komachi_pose");
+                    break;
+                case 27:
+                    openAnimationKey = Animator.StringToHash("Komachi_walk");
+                    break;
+                case 28:
+                    openAnimationKey = Animator.StringToHash("mirai2018_dance");
+                    break;
+                case 29:
+                    openAnimationKey = Animator.StringToHash("Locomotion");
+                    break;
+                case 30:
+                    openAnimationKey = Animator.StringToHash("RUN00_F");
+                    break;
+                case 31:
+                    openAnimationKey = Animator.StringToHash("JUMP00");
+                    break;
+                case 32:
+                    openAnimationKey = Animator.StringToHash("WIN00");
+                    break;
+                case 33:
+                    openAnimationKey = Animator.StringToHash("001_SAK01_Final");
+                    break;
                 default:
                     break;
             }
@@ -288,7 +322,7 @@ namespace KiliWare.SampleVRMApp
             _moveSpeed = move;
         }
 
-        // From https://teratail.com/questions/147069#reply-221677
+        // https://teratail.com/questions/147069#reply-221677
         protected void Rotate(Vector2 delta)
         {
             float deltaAngle = delta.magnitude * _rotationSpeed;

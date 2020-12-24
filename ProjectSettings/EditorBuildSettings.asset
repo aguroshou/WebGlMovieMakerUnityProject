@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/1. LoadVRM.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/6. SimpleGame.unity
     guid: b3c72512930111a43aaa7760b193fc28
+  - enabled: 1
+    path: Assets/Aguro/MainScene.unity
+    guid: 1cb922f625b334ecbbfadc168ff57f81
   m_configObjects: {}

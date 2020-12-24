@@ -19,7 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e18bf7f2-d1f7-4ec8-bf76-062c27bd8dfc" name="Default Changelist" comment="" />
+    <list default="true" id="e18bf7f2-d1f7-4ec8-bf76-062c27bd8dfc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebGlMovieMakerUnityProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebGlMovieMakerUnityProject/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebGlMovieMakerUnityProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebGlMovieMakerUnityProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/CallJavascriptFunction/CallbackParameter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/CallJavascriptFunction/CallbackParameter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/SceneLoadButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/SceneLoadButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerCards.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerCards.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/MixamoAnimatorController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/MixamoAnimatorController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1. LoadVRM.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1. LoadVRM.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TransformController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TransformController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VRMLoadManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/VRMLoadManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,9 +44,14 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EA9EF0E4-0251-4E9F-9025-6C59976645E2/4a/48a450e9/UnitySynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Aguro/CallJavascriptFunction/NativeExecuter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Aguro/Scripts/SetScrollPosition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../B_2019/SampleAppsOfVRM/Assets/OpenCVForUnity/org/opencv/DisposableObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Aguro/Scripts/LoadBackgroundImage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../B_2019/SampleAppsOfVRM/Library/PackageCache/com.unity.textmeshpro@2.0.1/Scripts/Runtime/TMP_InputField.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9577AC7A-62EF-4317-9789-031239BA8798/07/5ec2ebe0/NumberFormatInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Aguro/CallJavascriptFunction/CallFfmpeg.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9577AC7A-62EF-4317-9789-031239BA8798/07/5ec2ebe0/NumberFormatInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OpenCVForUnity/org/opencv/calib3d/Calib3d.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../GaiaxVirtualBackgroundMovieCreator/BackgroundMovieCreatorUnityProject/Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileImage.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9577AC7A-62EF-4317-9789-031239BA8798/32/59b2b5e0/Single.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -41,8 +59,12 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Aguro/CallJavascriptFunction/NativeExecuter.cs" />
         <option value="$PROJECT_DIR$/Assets/Aguro/CallJavascriptFunction/CallbackParameter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Aguro/CallJavascriptFunction/CallFfmpeg.cs" />
+        <option value="$PROJECT_DIR$/Assets/Aguro/Scripts/SetScrollPosition.cs" />
         <option value="$PROJECT_DIR$/Assets/OpenCVForUnity/Examples/MainModules/videoio/VideoWriterExample/VideoWriterExample.cs" />
+        <option value="$PROJECT_DIR$/Assets/Aguro/Scripts/LoadBackgroundImage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TransformController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VRMLoadManager.cs" />
       </list>
     </option>
   </component>
@@ -77,10 +99,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="875">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="875" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -99,7 +121,13 @@
       <workItem from="1605791531706" duration="537000" />
       <workItem from="1605792228987" duration="2085000" />
       <workItem from="1606287924346" duration="10215000" />
-      <workItem from="1606380375024" duration="7591000" />
+      <workItem from="1606380375024" duration="10532000" />
+      <workItem from="1606999149557" duration="3001000" />
+      <workItem from="1607524043704" duration="7749000" />
+      <workItem from="1608361790770" duration="205000" />
+      <workItem from="1608530430823" duration="2557000" />
+      <workItem from="1608780201802" duration="5916000" />
+      <workItem from="1608798012052" duration="4592000" />
     </task>
     <servers />
   </component>
@@ -192,5 +220,9 @@
       <screen x="0" y="23" width="1680" height="957" />
     </state>
     <state width="840" height="478" key="XDebugger.FullValuePopup/0.23.1680.957@0.23.1680.957" timestamp="1606394340694" />
+    <state x="869" y="227" width="782" height="548" key="find.popup" timestamp="1608786102758">
+      <screen x="0" y="23" width="1680" height="957" />
+    </state>
+    <state x="869" y="227" width="782" height="548" key="find.popup/0.23.1680.957@0.23.1680.957" timestamp="1608786102758" />
   </component>
 </project>

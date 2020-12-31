@@ -20,18 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e18bf7f2-d1f7-4ec8-bf76-062c27bd8dfc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebGlMovieMakerUnityProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebGlMovieMakerUnityProject/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebGlMovieMakerUnityProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebGlMovieMakerUnityProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Aguro/CallJavascriptFunction/CallbackParameter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Aguro/CallJavascriptFunction/CallbackParameter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Aguro/SceneLoadButton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Aguro/SceneLoadButton.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerCards.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerCards.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/MixamoAnimatorController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/MixamoAnimatorController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1. LoadVRM.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1. LoadVRM.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TransformController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TransformController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/VRMLoadManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/VRMLoadManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,6 +118,7 @@
       <workItem from="1608530430823" duration="2557000" />
       <workItem from="1608780201802" duration="5916000" />
       <workItem from="1608798012052" duration="4592000" />
+      <workItem from="1608872941134" duration="1398000" />
     </task>
     <servers />
   </component>

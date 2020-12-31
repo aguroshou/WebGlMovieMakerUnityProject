@@ -13,31 +13,33 @@ namespace KiliWare.SampleVRMApp
     *
     * このスクリプトはシーン上の"VRMLoader"という名前のついたGameObjectにアタッチしてください。
     * FileImporterPlugin.jslibの中で、"VRMLoader"と名のつくGameObjectに対してコールバックの呼び出しを行っているためです。
-    */ 
+    */
     public class VRMLoadManager : MonoBehaviour
     {
         /* Reference:
         * https://qiita.com/mechamogera/items/89d4555b202af96810af
         * https://forum.unity.com/threads/how-do-i-let-the-user-load-an-image-from-their-harddrive-into-a-webgl-app.380985/
-        */ 
+        */
         [DllImport("__Internal")]
         protected static extern void FileImporterCaptureClick();
+
         [DllImport("__Internal")]
         protected static extern void ImageFileImporterCaptureClick();
+
         public event Action<GameObject> OnModelLoaded;
         public event Action<VRMMetaObject> OnMetaDataLoaded;
         public SpriteRenderer LoadSpriteRenderer;
 
         [SerializeField] private LoadBackgroundImage _loadBackgroundImage;
-        
+
         public void OnLoadButtonClicked()
         {
-            #if UNITY_EDITOR
-                var url = Application.dataPath + "/SampleModel/Sample.vrm";
-                FileSelected(url);
-            #elif UNITY_WEBGL
+#if UNITY_EDITOR
+            var url = Application.dataPath + "/SampleModel/Sample.vrm";
+            FileSelected(url);
+#elif UNITY_WEBGL
                 FileImporterCaptureClick();
-            #endif
+#endif
         }
 
         public void OnSampleLoadButtonClicked()
@@ -76,7 +78,8 @@ namespace KiliWare.SampleVRMApp
         protected void LoadVRMFromBytes(Byte[] bytes)
         {
             var context = new VRMImporterContext();
-            try {
+            try
+            {
                 context.ParseGlb(bytes);
 
                 context.Load();
@@ -85,11 +88,12 @@ namespace KiliWare.SampleVRMApp
 
                 var meta = context.ReadMeta(true);
                 model.name = meta.Title;
-                
+
                 context.ShowMeshes();
                 OnLoaded(model, meta);
-                
-            } catch(Exception e) {
+            }
+            catch (Exception e)
+            {
                 Debug.LogError(e);
             }
         }
@@ -103,7 +107,8 @@ namespace KiliWare.SampleVRMApp
                 OnMetaDataLoaded?.Invoke(meta);
             }
         }
-         public void OnLoadImageButtonClicked()
+
+        public void OnLoadImageButtonClicked()
         {
 #if UNITY_EDITOR
             var url = Application.dataPath + "/SampleModel/Sample.png";
@@ -112,12 +117,12 @@ namespace KiliWare.SampleVRMApp
                 ImageFileImporterCaptureClick();
 #endif
         }
-        
+
         public void ImageFileSelected(string url)
         {
             StartCoroutine(LoadImageFileJson(url));
         }
-        
+
         protected IEnumerator LoadImageFileJson(string url)
         {
             using (UnityWebRequest webRequest = UnityWebRequest.Get(url))
@@ -143,7 +148,9 @@ namespace KiliWare.SampleVRMApp
             tex.LoadImage(bytes);
 
             //Texture2DをSpriteに変換
-            LoadSpriteRenderer.sprite = Sprite.Create(tex, new Rect(-tex.width/2.0f, -tex.width/2.0f, tex.width/2.0f, tex.height/2.0f), Vector2.zero);
+            LoadSpriteRenderer.sprite = Sprite.Create(tex,
+                new Rect(0.0f, 0.0f, tex.width, tex.height),
+                new Vector2(0.5f, 0.5f));
             _loadBackgroundImage.ChangeBackgroundImageScale();
         }
     }

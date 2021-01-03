@@ -20,8 +20,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e18bf7f2-d1f7-4ec8-bf76-062c27bd8dfc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebGlMovieMakerUnityProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebGlMovieMakerUnityProject/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebGlMovieMakerUnityProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebGlMovieMakerUnityProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VRMLoadManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/VRMLoadManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/MainScene 1.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/MainScene 1.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/MainScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/MainScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/ZoomMovieMakerMainScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Aguro/ZoomMovieMakerMainScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerArmStretching.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerArmStretching.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerCards.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerCards.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerDancing.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerDancing.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerHapplyIdle.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerHapplyIdle.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerOrcIdle.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerOrcIdle.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerSitting.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerSitting.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerSittingClap.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerSittingClap.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerSittingThumbsUp.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerSittingThumbsUp.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerSittingYell.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerSittingYell.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerStandingWBriefcaseIdle.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerStandingWBriefcaseIdle.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerTaunt.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerTaunt.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerTextingWhileStanding.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerTextingWhileStanding.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerThankful.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/AnimatorControllerThankful.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/MixamoAnimatorController.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AnimatorControllers/MixamoAnimatorController.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AttackParticle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/AttackParticle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DestroyParticle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DestroyParticle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/EnemyCube.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/EnemyCube.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PlayerCollider.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PlayerCollider.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sample.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sample.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,17 +86,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EA9EF0E4-0251-4E9F-9025-6C59976645E2/4a/48a450e9/UnitySynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Aguro/Scripts/CopyInputField.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Aguro/CallJavascriptFunction/NativeExecuter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Aguro/CallJavascriptFunction/CallFfmpeg.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9577AC7A-62EF-4317-9789-031239BA8798/07/5ec2ebe0/NumberFormatInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9577AC7A-62EF-4317-9789-031239BA8798/32/59b2b5e0/Single.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WebGLSupport/WebGLInput/WebGLInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EA9EF0E4-0251-4E9F-9025-6C59976645E2/4a/48a450e9/UnitySynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Aguro/Scripts/SetScrollPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Aguro/Scripts/InputText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../B_2019/SampleAppsOfVRM/Assets/OpenCVForUnity/org/opencv/DisposableObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Aguro/Scripts/LoadBackgroundImage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../B_2019/SampleAppsOfVRM/Library/PackageCache/com.unity.textmeshpro@2.0.1/Scripts/Runtime/TMP_InputField.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Aguro/CallJavascriptFunction/CallFfmpeg.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9577AC7A-62EF-4317-9789-031239BA8798/07/5ec2ebe0/NumberFormatInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OpenCVForUnity/org/opencv/calib3d/Calib3d.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../GaiaxVirtualBackgroundMovieCreator/BackgroundMovieCreatorUnityProject/Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileImage.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9577AC7A-62EF-4317-9789-031239BA8798/32/59b2b5e0/Single.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../GaiaxVirtualBackgroundMovieCreator/BackgroundMovieCreatorUnityProject/Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileImage.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -51,10 +108,14 @@
         <option value="$PROJECT_DIR$/Assets/Aguro/CallJavascriptFunction/CallbackParameter.cs" />
         <option value="$PROJECT_DIR$/Assets/Aguro/CallJavascriptFunction/CallFfmpeg.cs" />
         <option value="$PROJECT_DIR$/Assets/Aguro/Scripts/SetScrollPosition.cs" />
-        <option value="$PROJECT_DIR$/Assets/OpenCVForUnity/Examples/MainModules/videoio/VideoWriterExample/VideoWriterExample.cs" />
         <option value="$PROJECT_DIR$/Assets/Aguro/Scripts/LoadBackgroundImage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TransformController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VRMLoadManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Aguro/Scripts/RotateCow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Aguro/Scripts/UVScroll.cs" />
+        <option value="$PROJECT_DIR$/Assets/Aguro/Scripts/CopyInputField.cs" />
+        <option value="$PROJECT_DIR$/Assets/OpenCVForUnity/Examples/MainModules/videoio/VideoWriterExample/VideoWriterExample.cs" />
+        <option value="$PROJECT_DIR$/Assets/Aguro/Scripts/InputText.cs" />
       </list>
     </option>
   </component>
@@ -65,8 +126,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.7327249" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.62842244" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.73253924" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.6285869" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -89,10 +150,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="17229">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="17229" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -119,6 +180,8 @@
       <workItem from="1608780201802" duration="5916000" />
       <workItem from="1608798012052" duration="4592000" />
       <workItem from="1608872941134" duration="1398000" />
+      <workItem from="1609400699179" duration="1589000" />
+      <workItem from="1609587298789" duration="2180000" />
     </task>
     <servers />
   </component>
@@ -143,21 +206,25 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="345" key="GridCell.Tab.0.bottom" timestamp="1606394215128">
-      <screen x="0" y="23" width="1680" height="957" />
+    <state width="1878" height="451" key="GridCell.Tab.0.bottom" timestamp="1609658040230">
+      <screen x="-91" y="-1057" width="1920" height="1057" />
     </state>
+    <state width="1878" height="451" key="GridCell.Tab.0.bottom/-91.-1057.1920.1057/0.23.1680.957@-91.-1057.1920.1057" timestamp="1609658040230" />
     <state width="1638" height="345" key="GridCell.Tab.0.bottom/0.23.1680.957@0.23.1680.957" timestamp="1606394215128" />
-    <state width="1638" height="345" key="GridCell.Tab.0.center" timestamp="1606394215127">
-      <screen x="0" y="23" width="1680" height="957" />
+    <state width="1878" height="451" key="GridCell.Tab.0.center" timestamp="1609658040230">
+      <screen x="-91" y="-1057" width="1920" height="1057" />
     </state>
+    <state width="1878" height="451" key="GridCell.Tab.0.center/-91.-1057.1920.1057/0.23.1680.957@-91.-1057.1920.1057" timestamp="1609658040230" />
     <state width="1638" height="345" key="GridCell.Tab.0.center/0.23.1680.957@0.23.1680.957" timestamp="1606394215127" />
-    <state width="1638" height="345" key="GridCell.Tab.0.left" timestamp="1606394215127">
-      <screen x="0" y="23" width="1680" height="957" />
+    <state width="1878" height="451" key="GridCell.Tab.0.left" timestamp="1609658040229">
+      <screen x="-91" y="-1057" width="1920" height="1057" />
     </state>
+    <state width="1878" height="451" key="GridCell.Tab.0.left/-91.-1057.1920.1057/0.23.1680.957@-91.-1057.1920.1057" timestamp="1609658040229" />
     <state width="1638" height="345" key="GridCell.Tab.0.left/0.23.1680.957@0.23.1680.957" timestamp="1606394215127" />
-    <state width="1638" height="345" key="GridCell.Tab.0.right" timestamp="1606394215127">
-      <screen x="0" y="23" width="1680" height="957" />
+    <state width="1878" height="451" key="GridCell.Tab.0.right" timestamp="1609658040230">
+      <screen x="-91" y="-1057" width="1920" height="1057" />
     </state>
+    <state width="1878" height="451" key="GridCell.Tab.0.right/-91.-1057.1920.1057/0.23.1680.957@-91.-1057.1920.1057" timestamp="1609658040230" />
     <state width="1638" height="345" key="GridCell.Tab.0.right/0.23.1680.957@0.23.1680.957" timestamp="1606394215127" />
     <state width="1638" height="345" key="GridCell.Tab.1.bottom" timestamp="1606394235012">
       <screen x="0" y="23" width="1680" height="957" />
@@ -207,6 +274,10 @@
       <screen x="0" y="23" width="1680" height="957" />
     </state>
     <state width="1638" height="345" key="GridCell.Tab.3.right/0.23.1680.957@0.23.1680.957" timestamp="1606394215059" />
+    <state x="469" y="-825" key="Rider.ProjectTemplateDialog.Size" timestamp="1609501444110">
+      <screen x="-91" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="469" y="-825" key="Rider.ProjectTemplateDialog.Size/-91.-1057.1920.1057/0.23.1680.957@-91.-1057.1920.1057" timestamp="1609501444110" />
     <state width="840" height="478" key="XDebugger.FullValuePopup" timestamp="1606394340694">
       <screen x="0" y="23" width="1680" height="957" />
     </state>

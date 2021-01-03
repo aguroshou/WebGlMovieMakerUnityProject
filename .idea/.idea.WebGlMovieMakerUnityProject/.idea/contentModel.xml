@@ -12,9 +12,18 @@
             <e p="NativeExecuter.cs" t="Include" />
           </e>
           <e p="Scripts" t="Include">
+            <e p="CopyInputField.cs" t="Include" />
+            <e p="InputText.cs" t="Include" />
             <e p="LoadBackgroundImage.cs" t="Include" />
+            <e p="RotateCow.cs" t="Include" />
             <e p="SceneLoadButton.cs" t="Include" />
             <e p="SetScrollPosition.cs" t="Include" />
+            <e p="UVScroll.cs" t="Include" />
+          </e>
+          <e p="Shader" t="Include">
+            <e p="TMP_SDF-MobileCyber.shader" t="Include" />
+            <e p="TMP_SDF-MobileMorphing.shader" t="Include" />
+            <e p="TMP_SDF-MobileScan.shader" t="Include" />
           </e>
         </e>
         <e p="MeshUtility" t="Include">
@@ -739,6 +748,11 @@
             </e>
           </e>
         </e>
+        <e p="VertexColorFarmAnimals" t="Include">
+          <e p="Shaders" t="Include">
+            <e p="VertexColorUnlit.shader" t="Include" />
+          </e>
+        </e>
         <e p="VRM" t="Include">
           <e p="DepthFirstScheduler" t="Include">
             <e p="DepthFirstScheduler.asmdef" t="Include" />
@@ -1272,6 +1286,11 @@
               <e p="Utils.cs" t="Include" />
             </e>
             <e p="UniUnlit.asmdef" t="Include" />
+          </e>
+        </e>
+        <e p="WebGLSupport" t="Include">
+          <e p="WebGLInput" t="Include">
+            <e p="WebGLInput.cs" t="Include" />
           </e>
         </e>
       </e>

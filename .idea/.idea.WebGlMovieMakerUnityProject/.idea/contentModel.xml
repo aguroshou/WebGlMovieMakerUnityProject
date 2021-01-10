@@ -1290,7 +1290,21 @@
         </e>
         <e p="WebGLSupport" t="Include">
           <e p="WebGLInput" t="Include">
+            <e p="Detail" t="Include">
+              <e p="RebuildChecker.cs" t="Include" />
+            </e>
+            <e p="Mobile" t="Include">
+              <e p="WebGLInputMobile.cs" t="Include" />
+            </e>
             <e p="WebGLInput.cs" t="Include" />
+            <e p="Wrapper" t="Include">
+              <e p="IInputField.cs" t="Include" />
+              <e p="WrappedInputField.cs" t="Include" />
+              <e p="WrappedTMPInputField.cs" t="Include" />
+            </e>
+          </e>
+          <e p="WebGLWindow" t="Include">
+            <e p="WebGLWindow.cs" t="Include" />
           </e>
         </e>
       </e>
